@@ -1,0 +1,98 @@
+
+PROTOTYPES:
+
+create a void prototype name it aCir()
+create a void prototype name it aRec()
+create a void prototype name it aTri()
+create a sting prototype name it prompts(int)
+
+create a const double VAR name it PI equal it to 3.14159.
+create string consts name them PROMPT,CIR_PROMPT,REC_PROMPT,TRI_PROMPT,
+MESSAGE
+
+each string const has there own prompts written durring coding.
+
+MAIN  FUNCTION:
+
+
+create a int variable name it input instialize it to 0.
+create a bool name it leaving eqaul it to true 
+using a switch case create a menu fuction 
+
+		
+	while(leaving)
+		print out welcome prompts(0)
+		get input using VAR input
+		switch(input)
+		{
+	 	  case 1:
+	 	  	print out area of prompts(input)
+	 		aCir()
+	 	  case 2:
+	 	  	print out area of prompts(input)
+	 		aRec()
+	 	  case 3:
+	 	    print out area of prompts(input) 
+	 		aTri()
+		  case 4:
+	 		{
+	 		 leaving = false;
+	 		 break;
+			}
+	
+		}
+		
+FUNCTIONS:
+
+void aCir()
+{
+	create a local int VARs name them rad, area eqaul it to 0.
+	wait for input asking for radius store it in rad
+
+	CALCULATE:
+	area = PI * rad**2;
+	print out area in a output message.
+	
+
+}
+void aRec()
+{
+	create a local int VARs name them length, width, area eqaul it to 0.
+	wait for input asking for length,width store it in VAR's length, width
+
+	CALCULATE:
+	area = length * width;
+	print out area in a output message.
+
+}
+void aTri()
+{
+	create a local int VARs name them base,height, area eqaul it to 0.
+	wait for input asking for base,height store it in base,height.
+
+	CALCULATE:
+	area = 0.5 * base * height;
+	print out area in a output message.
+
+}
+string prompts(int num)
+{
+	create local string VAR prompt
+	switch(num)
+	{
+		case 0:
+			prompt = PROMPT
+		case 1:
+			prompt = CIR_PROMPT
+		case 2:
+			prompt = REC_PROMPT
+		case 3:
+			prompt = TRI_PROMPT
+		case 4:
+			prompt = MESSAGE
+	
+	}
+	return prompt;
+
+}
+

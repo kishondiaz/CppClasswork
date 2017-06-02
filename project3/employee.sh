@@ -1,0 +1,9 @@
+clear
+clear
+g++ -o employee_h Employee.h
+g++ -o employeepay_h EmployeePay.h
+g++ -o hourlypaied HourlyPay.h
+g++ -o employee Employee.cpp
+g++ -o employeePay EmployeePay.cpp
+g++ -o employeemain EmployeeMain.cpp
+g++ -o hourlyPay HourlyPay.cpp
